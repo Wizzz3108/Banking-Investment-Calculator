@@ -1,18 +1,58 @@
-# -Cplusplus-Program
-# 1. Summarize the project and what problem it was solving.
-This project created a banking investment calculator to help users predict their future account balance with and without monthly deposits. It solved the problem of calculating compounded interest over a number of years based on user-provided inputs. The program outputs two clear reports, allowing users to make informed financial decisions.
+# Banking Investment Calculator
 
-# 2. What did you do particularly well?
-I structured the project by separating functionality into different classes like Calculate, Display, and YearEndBalance. This made the program organized and easy to debug or expand if needed. I also handled user input carefully and formatted the output in a professional, easy-to-read table.
+A C++ application that estimates the future value of an investment using compound interest, allowing users to compare account growth with and without recurring monthly deposits.
 
-# 3. Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
-I could enhance the code by adding input validation to handle invalid or negative values. This would make the program more secure and prevent logical errors if the user inputs incorrect data. Additionally, I could improve memory efficiency by avoiding unnecessary pass-by-reference where it's not needed.
+## Overview
 
-# 4. Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
-The hardest part was ensuring proper scope resolution between classes and correctly structuring the relationships between them. I overcame this by carefully reviewing how to use headers, include guards, and the correct syntax for class methods defined outside the class. To strengthen my skills, I’m adding more practice with multi-file C++ projects and studying examples of clean class organization.
+The Banking Investment Calculator is a C++ application that estimates the future value of an investment using compound interest. The program allows users to compare account growth with and without recurring monthly deposits, providing a clear picture of how consistent investing impacts long-term financial growth.
 
-# 5. What skills from this project will be particularly transferable to other projects or course work?
-Designing classes with clear responsibilities will help me in larger object-oriented programming projects. Handling user input and formatting output are valuable skills for any project that interacts with users. Lastly, setting up separate header and implementation files improves code organization and is a standard practice in professional software development.
+This project was developed to strengthen object-oriented programming concepts while building a practical financial application. The program accepts user-defined investment information and generates two formatted reports that display annual account balances over the life of the investment.
 
-# 6. How did you make this program maintainable, readable, and adaptable?
-I used meaningful class, method, and variable names so others could easily understand what the code is doing. I organized code into small, single-responsibility functions and separated files logically by class. This makes the program easy to maintain, debug, and extend if new features like additional interest calculation types are needed later.
+## Features
+
+- Calculates compound interest over multiple years
+- Compares investment growth with and without monthly deposits
+- Generates formatted annual investment reports
+- Object-oriented design using multiple classes
+- Clean, readable console output
+
+## Technologies Used
+
+- C++
+- Object-Oriented Programming (OOP)
+- Multi-file project structure
+- Standard Template Library (STL)
+
+## Project Structure
+
+The application follows an object-oriented design by separating responsibilities across multiple classes.
+
+- **Calculate** – Performs compound interest calculations.
+- **YearEndBalance** – Stores and manages yearly investment data.
+- **Display** – Formats and displays investment reports to the user.
+
+This separation of responsibilities improves maintainability, readability, and makes the project easier to expand with additional features in the future.
+
+## What I Learned
+
+This project strengthened my understanding of object-oriented programming, particularly designing classes with single responsibilities and organizing projects across multiple source and header files.
+
+It also reinforced the importance of separating business logic from presentation logic, resulting in code that is easier to maintain, debug, and extend.
+
+## Future Improvements
+
+- Input validation for invalid or negative values
+- Improved exception handling
+- Additional investment calculation options
+- Exporting reports to CSV or PDF
+- A graphical user interface (GUI)
+
+## Skills Demonstrated
+
+- Object-Oriented Programming
+- Class Design
+- Separation of Concerns
+- Financial Calculations
+- User Input Handling
+- Console Application Development
+- Software Architecture Fundamentals
